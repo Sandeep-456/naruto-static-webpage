@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.animecard{
+    background-image:url("https://i.pinimg.com/736x/2e/c3/1d/2ec31d205b1c06ea9ab17397f28566ca.jpg");
+    height:100vh;
+    background-size:cover;
+}
+
+.card{
+    text-align:center;
+    background-color: #e9caed;
+    padding:10px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.cardheading{
+    color:#6ab8e6;
+    font-size:60px;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+
+
+.button{
+    font-size:20px;
+    background-color:blue;
+    color:white;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+}
+
+
+
+
+.bg-container{
+    background-image:url("https://i.pinimg.com/564x/7e/a5/e1/7ea5e1618ecb734c34e75691d55bcf46.jpg");
+    background-size:cover;
+    
+}
+
+.mainheading{
+    color:#f5f111;
+    font-weight:bold;
+    padding:20px;
+}
+
+.charactercard{
+    background-color:#e0fdff;
+    border-radius:20px;
+    padding:16px;
+    margin:30px;
+}
+
+.charecter-image{
+    height:120px;
+    width:80px;
+}
+
+
+.charactercard-headind{
+    font-size:35px;
+    font-weight:bold;
+    font-family:Cursive;
+    
+}
+
+.charactercard-paragraph{
+    font-size:14px;
+}
+
+
+
+
+
+
+
+.detail-view-background-container {
+    background-size:cover;
+    background-image:url("https://i.pinimg.com/564x/e2/c5/d5/e2c5d505c4964eb69362c6e6a4825fb4.jpg");
+ 
+}
+
+.detail-view-heading{
+    color:#FFD23F;
+    padding:20px;
+    font-weight:bold;
+}
+
+.detail-view-container{
+    background-color:#eddaaf;
+    margin:50px;
+    border-radius:20px;
+}
+
+
+.detail-view-text-container{
+    font-size:15px;
+    font-family:"Roboto";
+    padding:20px;
+}
+
+.text-container-heading{
+    font-weight:bold;
+    font-family:"cursive";
+}

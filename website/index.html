@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="sectionhome">
+      <div class="animecard d-flex flex-column justify-content-end">
+        <div class="card">
+          <h1 class="cardheading">Naruto</h1>
+          <p>Get started to know more about naruto anime</p>
+          <div>
+            <button class="button" onclick="display('sectioncharacter')">
+              Start
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectioncharacter">
+      <div class="bg-container">
+        <h1 class="mainheading">Know about characters</h1>
+        <div
+          class="charactercard d-flex flex-coloumn justify-content-between"
+          onclick="display('sectionnarutodetail')"
+        >
+          <div>
+            <h1 class="charactercard-headind">Naruto Uzumaki</h1>
+            <p class="charactercard-paragraph">
+              The main character and protagonist of the series. He is an orphan
+              who has a dangerous fox-like entity sealed within his body. Naruto
+              aspires to become the Hokage, or leader, of his village.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://i.pinimg.com/564x/93/a3/b9/93a3b945ec0e54fd62480ddfe23ab1b7.jpg"
+              class="charecter-image"
+            />
+          </div>
+        </div>
+        <div
+          class="charactercard d-flex f lex-coloumn justify-content-between"
+          onclick="display('sectionsasukedetail')"
+        >
+          <div>
+            <h1 class="charactercard-headind">Sasuke Uchiha</h1>
+            <p class="charactercard-paragraph">
+              Naruto's best friend and rival. Sasuke is defined by the actions
+              of his brother Itachi and undergoes significant changes throughout
+              the story.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://i.pinimg.com/564x/fc/89/2e/fc892e478e36064312516ff775f4eaba.jpg"
+              class="charecter-image"
+            />
+          </div>
+        </div>
+        <div
+          class="charactercard d-flex flex-coloumn justify-content-between"
+          onclick="display('sectionsakuradetail')"
+        >
+          <div>
+            <h1 class="charactercard-headind">Sakura Haruno</h1>
+            <p class="charactercard-paragraph">
+              A member of Team 7. Sakura initially takes a backseat to Naruto
+              and Sasuke but eventually becomes one of the best medical ninjas
+              in the Hidden Leaf Village.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://i.pinimg.com/564x/75/4f/d1/754fd117ac9c225f8d20b6a850a8d22f.jpg"
+              class="charecter-image"
+            />
+          </div>
+        </div>
+        <div
+          class="charactercard d-flex flex-coloumn justify-content-between"
+          onclick="display('sectionitachidetail')"
+        >
+          <div>
+            <h1 class="charactercard-headind">Itachi Uchiha</h1>
+            <p class="charactercard-paragraph">
+              Sasuke's older brother. Itachi was a member of the Akatsuki and
+              was considered a prodigy by the Uchiha due to his talents and
+              intelligence.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://i.pinimg.com/564x/48/47/aa/4847aa1da5b0bf55653816fb993005e0.jpg"
+              class="charecter-image"
+            />
+          </div>
+        </div>
+        <div
+          class="charactercard d-flex flex-coloumn justify-content-between"
+          onclick="display('sectionkakashidetail')"
+        >
+          <div>
+            <h1 class="charactercard-headind">Kakashi Hatake</h1>
+            <p class="charactercard-paragraph">
+              The leader of Team 7. Kakashi was the most popular Naruto
+              character based on the Character Poll 1 that came out with manga
+              chapter 60.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://i.pinimg.com/564x/7d/83/12/7d8312f6cb88e12b54a813c4f2330c5b.jpg"
+              class="charecter-image"
+            />
+          </div>
+        </div>
+        <div
+          class="charactercard d-flex flex-coloumn justify-content-between"
+          onclick="display('sectionpaindetail')"
+        >
+          <div>
+            <h1 class="charactercard-headind">Pain</h1>
+            <p class="charactercard-paragraph">
+              Pain aka Nagato belongs to the Uzumaki clan and is one of the main
+              villains in Naruto. Nagato has a lot of aliases in Naruto
+              Shippuden, one of them being Pain as it is more of a concept than
+              a person, “The Six Paths of Pain”.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://i.pinimg.com/564x/2c/30/1b/2c301bf24a58a604151d87366744ae25.jpg"
+              class="charecter-image"
+            />
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectionhome')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionnarutodetail">
+      <div class="detail-view-background-container">
+        <h1 class="detail-view-heading">Detail View</h1>
+        <div class="detail-view-container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://i.pinimg.com/564x/b5/b4/3a/b5b43ae060cb1f01cb159658218dfe54.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/9d/15/43/9d1543c6dd9cd09269618473e5ca9135.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/b4/11/24/b41124da9584bde6371652cc7a83187d.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detail-view-text-container">
+            <h1 class="text-container-heading">Naruto Uzumaki</h1>
+            <p>
+              Naruto Uzumaki is a young boy from the Hidden Leaf Village and the
+              biggest problem child at the ninja academy. He causes mischief
+              every day and is constantly being scolded by his teacher, Iruka
+              Umino. He has fallen so far behind in his studies that his
+              graduation is uncertain, but Naruto actually dreams of becoming
+              the leader of the village, known as the Hokage, and vows to one
+              day become the No. 1 ninja.However, all the adults in the village
+              treat Naruto with disdain due to a secret surrounding his birth.
+              12 years ago, when Naruto was just a baby, the Nine-Tailed Fox
+              attacked the village, and the only way to stop it was to seal it
+              inside of him. This fact is first revealed to him by Mizuki, an
+              instructor at the academy who uses Naruto to steal the Scroll of
+              Sealing from the current Hokage. Once the deed is done, he appears
+              before the young ninja and discloses the shocking truth behind his
+              birth. Naruto manages to defeat Mizuki with Iruka’s help, who
+              despite knowing about Naruto’s past, has always believed in him.
+              After learning Iruka’s true feelings, Naruto gains a renewed
+              determination to pursue his dream.After successfully graduating
+              from the academy alongside fellow students Sasuke Uchiha and
+              Sakura Haruno, Naruto finally takes the first steps on his journey
+              as a real ninja!
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectioncharacter')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionsasukedetail">
+      <div class="detail-view-background-container">
+        <h1 class="detail-view-heading">Detail View</h1>
+        <div class="detail-view-container">
+          <div id="carouselsasuke" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselsasuke"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselsasuke" data-slide-to="1"></li>
+              <li data-target="#carouselsasuke" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://i.pinimg.com/564x/0c/9e/3d/0c9e3d65d09d9a6fce8e728626737a37.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/d4/dc/21/d4dc2137c561005ff0a3636623156652.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/4c/6d/57/4c6d5721db4cea0d739b50e889c65127.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselsasuke"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselsasuke"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detail-view-text-container">
+            <h1 class="text-container-heading">Sasuke uchiha</h1>
+            <p>
+              Sasuke Uchiha is one of the last surviving members of
+              Konohagakure's Uchiha clan. After his older brother, Itachi,
+              slaughtered their clan, Sasuke made it his mission in life to
+              avenge them by killing Itachi. He is added to Team 7 upon becoming
+              a ninja, and, through competition with his rival and best friend,
+              Naruto Uzumaki, Sasuke starts developing his skills but eventually
+              grows dissatisfied with his progress. He defects from Konoha so
+              that he can acquire the strength needed to exact his revenge and
+              master the Cursed Seal of Heaven. His years of seeking vengeance
+              and the actions that followed became increasingly demanding,
+              irrational, and isolated from others, leading him to be branded as
+              an international criminal. After learning the truth of his
+              brother's sacrifice, later proving instrumental in ending the
+              Fourth Shinobi World War, and being happily redeemed by Naruto,
+              Sasuke decides to return to Konoha and dedicate his life to help
+              protect the village and its inhabitants, becoming referred to as
+              the "Supporting Kage"
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectioncharacter')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionsakuradetail">
+      <div class="detail-view-background-container">
+        <h1 class="detail-view-heading">Detail View</h1>
+        <div class="detail-view-container">
+          <div id="carouselsakura" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselsakura"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselsakura" data-slide-to="1"></li>
+              <li data-target="#carouselsakura" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://i.pinimg.com/564x/b7/b6/59/b7b6593e8855dae70647654ef44edc40.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/11/7f/76/117f764dc7247cc7856b302576a855f5.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/66/17/04/661704420e2c7800951fa6b781dc719e.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselsakura"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselsakura"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detail-view-text-container">
+            <h1 class="text-container-heading">Sakura Haruno</h1>
+            <p>
+              Sakura is the only child of Kizashi and Mebuki Haruno. She had a
+              healthy childhood, raised by her parents without any serious
+              tragedy or complications, unlike her team members. When she
+              entered Konoha's Academy, a few of the girls in her class started
+              picking on her because of her broad forehead. Sakura tried to
+              combat their teasing by hiding her forehead with her bangs, but
+              this caused the girls to bully her even more. Ino Yamanaka, one of
+              her classmates, saw this, and defended Sakura from her bullies and
+              encouraged her to embrace her forehead rather than hide it.Over
+              the following years, Ino's guidance and friendship helped Sakura
+              become comfortable with herself and develop into her own person.
+              Though she felt indebted to Ino for helping her, Sakura began to
+              feel that she was living in Ino's shadow when she, instead, wanted
+              to be Ino's equal.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectioncharacter')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionitachidetail">
+      <div class="detail-view-background-container">
+        <h1 class="detail-view-heading">Detail View</h1>
+        <div class="detail-view-container">
+          <div id="carouselitachi" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselitachi"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselitachi" data-slide-to="1"></li>
+              <li data-target="#carouselitachi" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://i.pinimg.com/564x/83/f0/07/83f0077674a99e9103453a6890ddabb0.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/70/3e/90/703e901b36c5ed42fdf51d65c19a8042.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/49/5c/6a/495c6aaae5418d2b1a48f95109fe8ce0.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselitachi"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselitachi"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detail-view-text-container">
+            <h1 class="text-container-heading">Itachi Uchiha</h1>
+            <p>
+              Itachi first appeared in Volume 16 of the Naruto manga and anime
+              in March 2003 and April 2004, respectively. The original manga ran
+              from 1999–2014, with a follow-up volume in 2015. Versions of the
+              anime series ran on TV from 2002–17.Itachi had black hair, tied
+              into a ponytail with long parted bangs. He wore a headband with a
+              leaf symbol with a horizontal slash over it, signifying his
+              “missing-nin” status, meaning that he had cut ties with his native
+              village, the Hidden Leaf Village. Itachi was also often outfitted
+              in a long black robe with white and red cloud patterns on it,
+              signaling his allegiance to the Akatsuki, a terrorist
+              organization. He rarely showed emotion but was prone to shows of
+              force. Having been traumatized by witnessing a previous war, he
+              was a pacifist and would often run from confrontation. He
+              possessed the powerful Sharingan and was a ninja prodigy in his
+              youth.Itachi is the brother of one of the main characters of
+              Naruto, Sasuke. For much of the series’s duration, Itachi was
+              reviled by fans for killing his and Sasuke’s entire clan, the
+              Uchiha clan. It’s eventually revealed that Itachi didn’t murder
+              his clan in cold blood. In fact, he was ordered to murder them by
+              the leadership of his village to stop a coup d’etat, meaning that
+              he acted in his village’s and Sasuke’s best interests the whole
+              time. This was done to prevent another world war between the
+              villages, which Itachi was afraid of. After killing his clan, he
+              was allowed to spare his brother Sasuke, hoping that the hatred
+              and trauma from the event would mold him into a strong ninja.
+              Afterwards, he became part of the Akatsuki as a spy, making Itachi
+              more prominent as an antagonist.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectioncharacter')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionkakashidetail">
+      <div class="detail-view-background-container">
+        <h1 class="detail-view-heading">Detail View</h1>
+        <div class="detail-view-container">
+          <div id="carouselkakashi" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselkakashi"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselkakashi" data-slide-to="1"></li>
+              <li data-target="#carouselkakashi" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://i.pinimg.com/564x/fa/f3/9d/faf39d91a30f2cf3e5e8046748055212.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/a6/d4/bc/a6d4bc42fd593d79dfa89dcb54c2c1ff.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/ab/cc/da/abccda312fec10d50a5a330b9435cf48.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselkakashi"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselkakashi"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detail-view-text-container">
+            <h1 class="text-container-heading">Kakashi Hatake</h1>
+            <p>
+              Kakashi Hatake is a character from the anime Naruto who is known
+              as "Kakashi of the Sharingan" and "Copy Ninja". He is a shinobi
+              from Konoha's Hatake clan and is considered one of Konoha's most
+              talented ninja. Kakashi is skilled in ninjutsu, including the
+              Multiple Shadow Clone Technique, and is also proficient with a
+              variety of weapons, such as bows and arrows, kusarigama, chains,
+              and wire strings.Kakashi is the son of Sakumo Hatake, one of the
+              most powerful shinobi Konoha has ever produced, known as "White
+              Fang of the Leaf". Kakashi is a child prodigy who is hailed as the
+              best of his generation during his time at the ninja academy. He
+              becomes a Genin at age 5, a Chuunin at age 6, and later a Jounin
+              and a member of the AnBu Assassination squad for Hidden Leaf
+              Village.Kakashi is serious and observant, and approaches fights
+              with unwavering attentiveness. This seriousness can also lead him
+              to come off as painfully blunt when his students require a stern
+              lesson. He values teamwork and the lives of his students over all
+              else, even if it jeopardizes their mission.Kakashi is often looked
+              to for advice and leadership. He teaches the importance of
+              teamwork to his students on team 7, a lesson he received from his
+              childhood friend Obito Uchiha. After the fourth shinobi world war,
+              Kakashi becomes Konoha's sixth hokage.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectioncharacter')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionpaindetail">
+      <div class="detail-view-background-container">
+        <h1 class="detail-view-heading">Detail View</h1>
+        <div class="detail-view-container">
+          <div id="carouselpain" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselpain"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselpain" data-slide-to="1"></li>
+              <li data-target="#carouselpain" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://i.pinimg.com/564x/ba/fe/c6/bafec67c8b093fbc67dd91fe4f628f72.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/82/c7/4d/82c74d1a773f5e40b4afc3e1b6529fa1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/564x/7b/b3/7a/7bb37afee9af011bac5dee9935910cd8.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselpain"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselpain"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detail-view-text-container">
+            <h1 class="text-container-heading">Pain</h1>
+            <p>
+              Pain, also known as Nagato, is a character in the anime series
+              Naruto who is the leader of Akatsuki and Amegakure. Pain is a
+              member of the Uzumaki clan, a powerful ninja clan, and has the
+              ability to generate large amounts of chakra. His power comes from
+              the Rinnegan, an eye technique that allows him to manipulate all
+              six forms of nature.Pain, also known as Nagato, is a character in
+              the anime series Naruto who is the leader of Akatsuki and
+              Amegakure.Pain's goal is to capture the tailed beasts that are
+              sealed in people, and he seals most of the beasts in a Gedo
+              statue. His advisor then tells him to capture the Nine-Tailed
+              Demon Fox, which is sealed inside Naruto Uzumaki, the series'
+              protagonist.Pain has a tragic past. He was born on the outskirts
+              of Amegakure to Ise and Fusō, and during the Second Shinobi World
+              War, two shinobi from Konoha broke into Nagato's house and killed
+              his parents. Pain became disillusioned with the world after
+              experiencing the loss of his family and friends to war, and began
+              to believe that only pain and suffering could bring about peace.
+              He believes that no one can understand the value of peace without
+              first experiencing the horror of war, and makes a point in
+              teaching suffering to anyone he speaks to.Pain is partnered with
+              Konan, and the three were trained by Jiraiya in Ninjutsu. Pain's
+              main body is the Deva Path, which has gravitational-like control,
+              which allows it to push things away and attract them.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark" onclick="display('sectioncharacter')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
